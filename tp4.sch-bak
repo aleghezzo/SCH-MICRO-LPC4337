@@ -1,0 +1,78 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LPC4337JBD144:LPC4337JBD144 U?
+U 1 1 5F45B116
+P 3800 3500
+F 0 "U?" H 3800 6181 50  0000 C CNN
+F 1 "LPC4337JBD144" H 3800 6090 50  0000 C CNN
+F 2 "SOT486-1" H 3800 3500 50  0001 L BNN
+F 3 "" H 3800 3500 50  0001 C CNN
+	1    3800 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 6000 4600 6000
+Connection ~ 4600 6000
+Wire Wire Line
+	4600 6000 4700 6000
+Connection ~ 4700 6000
+Wire Wire Line
+	4700 6000 4800 6000
+Connection ~ 4800 6000
+Wire Wire Line
+	4800 6000 4850 6000
+Connection ~ 4900 6000
+Wire Wire Line
+	4900 6000 5000 6000
+Connection ~ 5000 6000
+Wire Wire Line
+	5000 6000 5100 6000
+Connection ~ 5100 6000
+Wire Wire Line
+	5100 6000 5200 6000
+Wire Wire Line
+	4850 6000 4850 6150
+Connection ~ 4850 6000
+Wire Wire Line
+	4850 6000 4900 6000
+Wire Wire Line
+	5600 6000 5700 6000
+Connection ~ 5700 6000
+Wire Wire Line
+	5700 6000 5800 6000
+Connection ~ 5800 6000
+Wire Wire Line
+	5800 6000 5900 6000
+Connection ~ 5900 6000
+Wire Wire Line
+	5900 6000 6000 6000
+Wire Wire Line
+	5800 6000 5800 6150
+Wire Wire Line
+	4400 6000 4300 6000
+Connection ~ 4200 6000
+Wire Wire Line
+	4200 6000 4100 6000
+Connection ~ 4300 6000
+Wire Wire Line
+	4300 6000 4250 6000
+Wire Wire Line
+	4250 6000 4250 6150
+Connection ~ 4250 6000
+Wire Wire Line
+	4250 6000 4200 6000
+$EndSCHEMATC

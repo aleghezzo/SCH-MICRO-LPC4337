@@ -1,0 +1,41 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1300 1200 1800 1500
+U 5F5D97EE
+F0 "MICRO-LPC4337JBD144" 50
+F1 "MICRO-LPC4337JBD144.sch" 50
+$EndSheet
+$Sheet
+S 3400 1200 1900 1500
+U 5F5DA166
+F0 "SDRAM-AS4C32M16SB" 50
+F1 "SDRAM-AS4C32M16SB.sch" 50
+$EndSheet
+$Sheet
+S 5600 1200 1900 1500
+U 5F5F7C55
+F0 "FLASH-N25Q064A" 50
+F1 "FLASH-N25Q064A.sch" 50
+$EndSheet
+$Sheet
+S 1300 3050 1800 1300
+U 5F5FD17C
+F0 "Power Supply" 50
+F1 "Power Suply.sch" 50
+F2 "IN_PWR_SUPPLY" I L 1300 3250 50 
+$EndSheet
+$EndSCHEMATC

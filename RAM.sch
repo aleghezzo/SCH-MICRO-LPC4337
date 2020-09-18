@@ -1,0 +1,500 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4850 800  1100 2750
+U 5F902D84
+F0 "Sheet5F902D83" 50
+F1 "AllianceMemory_512Mb_SDRAM_AS4C32M16SB.sch" 50
+F2 "DQ0" I R 5950 950 50 
+F3 "DQ1" I R 5950 1050 50 
+F4 "DQ2" I R 5950 1150 50 
+F5 "DQ3" I R 5950 1250 50 
+F6 "DQ4" I R 5950 1350 50 
+F7 "DQ5" I R 5950 1450 50 
+F8 "DQ6" I R 5950 1550 50 
+F9 "DQ7" I R 5950 1650 50 
+F10 "DQ8" I R 5950 1750 50 
+F11 "DQ9" I R 5950 1850 50 
+F12 "DQ10" I R 5950 1950 50 
+F13 "DQ11" I R 5950 2050 50 
+F14 "DQ12" I R 5950 2150 50 
+F15 "DQ13" I R 5950 2250 50 
+F16 "DQ14" I R 5950 2350 50 
+F17 "DQ15" I R 5950 2450 50 
+F18 "CLK" I L 4850 3450 50 
+F19 "CKE" I L 4850 3350 50 
+F20 "A12" I L 4850 2150 50 
+F21 "A11" I L 4850 2050 50 
+F22 "A9" I L 4850 1850 50 
+F23 "A8" I L 4850 1750 50 
+F24 "A7" I L 4850 1650 50 
+F25 "A6" I L 4850 1550 50 
+F26 "A5" I L 4850 1450 50 
+F27 "A4" I L 4850 1350 50 
+F28 "A3" I L 4850 1250 50 
+F29 "A2" I L 4850 1150 50 
+F30 "A1" I L 4850 1050 50 
+F31 "A0" I L 4850 950 50 
+F32 "A10_AP" I L 4850 1950 50 
+F33 "CHIP_SELECT#" I L 4850 3200 50 
+F34 "RAS#" I L 4850 3050 50 
+F35 "CAS#" I L 4850 2950 50 
+F36 "WE#" I L 4850 2850 50 
+F37 "LDQM" I L 4850 2750 50 
+F38 "UDQM" I L 4850 2650 50 
+$EndSheet
+$Sheet
+S 4850 4000 1100 2750
+U 5FA0E635
+F0 "sheet5FA0E60E" 50
+F1 "AllianceMemory_512Mb_SDRAM_AS4C32M16SB.sch" 50
+F2 "DQ0" I R 5950 4150 50 
+F3 "DQ1" I R 5950 4250 50 
+F4 "DQ2" I R 5950 4350 50 
+F5 "DQ3" I R 5950 4450 50 
+F6 "DQ4" I R 5950 4550 50 
+F7 "DQ5" I R 5950 4650 50 
+F8 "DQ6" I R 5950 4750 50 
+F9 "DQ7" I R 5950 4850 50 
+F10 "DQ8" I R 5950 4950 50 
+F11 "DQ9" I R 5950 5050 50 
+F12 "DQ10" I R 5950 5150 50 
+F13 "DQ11" I R 5950 5250 50 
+F14 "DQ12" I R 5950 5350 50 
+F15 "DQ13" I R 5950 5450 50 
+F16 "DQ14" I R 5950 5550 50 
+F17 "DQ15" I R 5950 5650 50 
+F18 "CLK" I L 4850 6650 50 
+F19 "CKE" I L 4850 6550 50 
+F20 "A12" I L 4850 5350 50 
+F21 "A11" I L 4850 5250 50 
+F22 "A9" I L 4850 5050 50 
+F23 "A8" I L 4850 4950 50 
+F24 "A7" I L 4850 4850 50 
+F25 "A6" I L 4850 4750 50 
+F26 "A5" I L 4850 4650 50 
+F27 "A4" I L 4850 4550 50 
+F28 "A3" I L 4850 4450 50 
+F29 "A2" I L 4850 4350 50 
+F30 "A1" I L 4850 4250 50 
+F31 "A0" I L 4850 4150 50 
+F32 "A10_AP" I L 4850 5150 50 
+F33 "CHIP_SELECT#" I L 4850 6400 50 
+F34 "RAS#" I L 4850 6250 50 
+F35 "CAS#" I L 4850 6150 50 
+F36 "WE#" I L 4850 6050 50 
+F37 "LDQM" I L 4850 5950 50 
+F38 "UDQM" I L 4850 5850 50 
+$EndSheet
+Text HLabel 1100 950  0    50   Input ~ 0
+A0
+Text HLabel 1100 1050 0    50   Input ~ 0
+A1
+Text HLabel 1100 1150 0    50   Input ~ 0
+A2
+Text HLabel 1100 1250 0    50   Input ~ 0
+A3
+Text HLabel 1100 1350 0    50   Input ~ 0
+A4
+Text HLabel 1100 1450 0    50   Input ~ 0
+A5
+Text HLabel 1100 1550 0    50   Input ~ 0
+A6
+Text HLabel 1100 1650 0    50   Input ~ 0
+A7
+Text HLabel 1100 1750 0    50   Input ~ 0
+A8
+Text HLabel 1100 1850 0    50   Input ~ 0
+A9
+Text HLabel 1100 1950 0    50   Input ~ 0
+A10
+Text HLabel 1100 2050 0    50   Input ~ 0
+A11
+Text HLabel 1100 2150 0    50   Input ~ 0
+A12
+Wire Wire Line
+	1100 950  3500 950 
+Wire Wire Line
+	3500 950  3500 4150
+Wire Wire Line
+	3500 4150 4850 4150
+Connection ~ 3500 950 
+Wire Wire Line
+	3500 950  4850 950 
+Wire Wire Line
+	1100 1050 3450 1050
+Wire Wire Line
+	1100 1150 3400 1150
+Wire Wire Line
+	1100 1250 3350 1250
+Wire Wire Line
+	1100 1350 3300 1350
+Wire Wire Line
+	4850 1450 3250 1450
+Wire Wire Line
+	1100 1550 3200 1550
+Wire Wire Line
+	4850 1650 3150 1650
+Wire Wire Line
+	1100 1750 3100 1750
+Wire Wire Line
+	4850 1850 3050 1850
+Wire Wire Line
+	4850 1950 3000 1950
+Wire Wire Line
+	1100 2050 2950 2050
+Wire Wire Line
+	4850 2150 2900 2150
+Wire Wire Line
+	3450 1050 3450 4250
+Wire Wire Line
+	3450 4250 4850 4250
+Connection ~ 3450 1050
+Wire Wire Line
+	3450 1050 4850 1050
+Wire Wire Line
+	3400 1150 3400 4350
+Wire Wire Line
+	3400 4350 4850 4350
+Connection ~ 3400 1150
+Wire Wire Line
+	3400 1150 4850 1150
+Wire Wire Line
+	3350 1250 3350 4450
+Wire Wire Line
+	3350 4450 4850 4450
+Connection ~ 3350 1250
+Wire Wire Line
+	3350 1250 4850 1250
+Wire Wire Line
+	3300 1350 3300 4550
+Wire Wire Line
+	3300 4550 4850 4550
+Connection ~ 3300 1350
+Wire Wire Line
+	3300 1350 4850 1350
+Wire Wire Line
+	3250 1450 3250 4650
+Wire Wire Line
+	3250 4650 4850 4650
+Connection ~ 3250 1450
+Wire Wire Line
+	3250 1450 1100 1450
+Wire Wire Line
+	4850 4750 3200 4750
+Wire Wire Line
+	3200 4750 3200 1550
+Connection ~ 3200 1550
+Wire Wire Line
+	3200 1550 4850 1550
+Wire Wire Line
+	3150 1650 3150 4850
+Wire Wire Line
+	3150 4850 4850 4850
+Connection ~ 3150 1650
+Wire Wire Line
+	3150 1650 1100 1650
+Wire Wire Line
+	4850 4950 3100 4950
+Wire Wire Line
+	3100 4950 3100 1750
+Connection ~ 3100 1750
+Wire Wire Line
+	3100 1750 4850 1750
+Wire Wire Line
+	3050 1850 3050 5050
+Wire Wire Line
+	3050 5050 4850 5050
+Connection ~ 3050 1850
+Wire Wire Line
+	3050 1850 1100 1850
+Wire Wire Line
+	3000 1950 3000 5150
+Wire Wire Line
+	3000 5150 4850 5150
+Connection ~ 3000 1950
+Wire Wire Line
+	3000 1950 1100 1950
+Wire Wire Line
+	4850 5250 2950 5250
+Wire Wire Line
+	2950 5250 2950 2050
+Connection ~ 2950 2050
+Wire Wire Line
+	2950 2050 4850 2050
+Wire Wire Line
+	2900 2150 2900 5350
+Wire Wire Line
+	2900 5350 4850 5350
+Connection ~ 2900 2150
+Wire Wire Line
+	2900 2150 1100 2150
+Wire Wire Line
+	4850 3200 1200 3200
+Text HLabel 1200 3200 0    50   Input ~ 0
+CS0
+Text HLabel 1200 3350 0    50   Input ~ 0
+CKE0
+Text HLabel 8600 950  2    50   Input ~ 0
+DQ0
+Text HLabel 8600 1050 2    50   Input ~ 0
+DQ1
+Text HLabel 8600 1150 2    50   Input ~ 0
+DQ2
+Text HLabel 8600 1250 2    50   Input ~ 0
+DQ3
+Text HLabel 8600 1350 2    50   Input ~ 0
+DQ4
+Text HLabel 8600 1450 2    50   Input ~ 0
+DQ5
+Text HLabel 8600 1550 2    50   Input ~ 0
+DQ6
+Text HLabel 8600 1650 2    50   Input ~ 0
+DQ7
+Text HLabel 8600 1750 2    50   Input ~ 0
+DQ8
+Text HLabel 8600 1850 2    50   Input ~ 0
+DQ9
+Text HLabel 8600 1950 2    50   Input ~ 0
+DQ10
+Text HLabel 8600 2050 2    50   Input ~ 0
+DQ11
+Text HLabel 8600 2150 2    50   Input ~ 0
+DQ12
+Text HLabel 8600 2250 2    50   Input ~ 0
+DQ13
+Text HLabel 8600 2350 2    50   Input ~ 0
+DQ14
+Text HLabel 8600 2450 2    50   Input ~ 0
+DQ15
+Wire Wire Line
+	5950 950  7200 950 
+Wire Wire Line
+	8600 1050 7250 1050
+Wire Wire Line
+	5950 1150 7300 1150
+Wire Wire Line
+	5950 1250 7350 1250
+Wire Wire Line
+	8600 1350 7400 1350
+Wire Wire Line
+	5950 1450 7450 1450
+Wire Wire Line
+	8600 1550 7500 1550
+Wire Wire Line
+	5950 1650 7550 1650
+Wire Wire Line
+	5950 1850 7650 1850
+Wire Wire Line
+	5950 1750 7600 1750
+Wire Wire Line
+	5950 1950 7700 1950
+Wire Wire Line
+	8600 2050 7750 2050
+Wire Wire Line
+	5950 2150 7800 2150
+Wire Wire Line
+	8600 2250 7850 2250
+Wire Wire Line
+	5950 2350 7900 2350
+Wire Wire Line
+	8600 2450 7950 2450
+Wire Wire Line
+	5950 4150 7200 4150
+Wire Wire Line
+	7200 4150 7200 950 
+Connection ~ 7200 950 
+Wire Wire Line
+	7200 950  8600 950 
+Wire Wire Line
+	7250 1050 7250 4250
+Wire Wire Line
+	7250 4250 5950 4250
+Connection ~ 7250 1050
+Wire Wire Line
+	7250 1050 5950 1050
+Wire Wire Line
+	5950 4350 7300 4350
+Wire Wire Line
+	7300 4350 7300 1150
+Connection ~ 7300 1150
+Wire Wire Line
+	7300 1150 8600 1150
+Wire Wire Line
+	7350 1250 7350 4450
+Wire Wire Line
+	7350 4450 5950 4450
+Connection ~ 7350 1250
+Wire Wire Line
+	7350 1250 8600 1250
+Wire Wire Line
+	5950 4550 7400 4550
+Wire Wire Line
+	7400 4550 7400 1350
+Connection ~ 7400 1350
+Wire Wire Line
+	7400 1350 5950 1350
+Wire Wire Line
+	7450 1450 7450 4650
+Wire Wire Line
+	7450 4650 5950 4650
+Connection ~ 7450 1450
+Wire Wire Line
+	7450 1450 8600 1450
+Wire Wire Line
+	7500 4750 7500 1550
+Wire Wire Line
+	5950 4750 7500 4750
+Connection ~ 7500 1550
+Wire Wire Line
+	7500 1550 5950 1550
+Wire Wire Line
+	7550 1650 7550 4850
+Wire Wire Line
+	7550 4850 5950 4850
+Connection ~ 7550 1650
+Wire Wire Line
+	7550 1650 8600 1650
+Wire Wire Line
+	5950 4950 7600 4950
+Wire Wire Line
+	7600 4950 7600 1750
+Connection ~ 7600 1750
+Wire Wire Line
+	7600 1750 8600 1750
+Wire Wire Line
+	7650 1850 7650 5050
+Wire Wire Line
+	7650 5050 5950 5050
+Connection ~ 7650 1850
+Wire Wire Line
+	7650 1850 8600 1850
+Wire Wire Line
+	5950 5150 7700 5150
+Wire Wire Line
+	7700 5150 7700 1950
+Connection ~ 7700 1950
+Wire Wire Line
+	7700 1950 8600 1950
+Wire Wire Line
+	7750 2050 7750 5250
+Wire Wire Line
+	7750 5250 5950 5250
+Connection ~ 7750 2050
+Wire Wire Line
+	7750 2050 5950 2050
+Wire Wire Line
+	5950 5350 7800 5350
+Wire Wire Line
+	7800 5350 7800 2150
+Connection ~ 7800 2150
+Wire Wire Line
+	7800 2150 8600 2150
+Wire Wire Line
+	7850 2250 7850 5450
+Wire Wire Line
+	7850 5450 5950 5450
+Connection ~ 7850 2250
+Wire Wire Line
+	7850 2250 5950 2250
+Wire Wire Line
+	5950 5550 7900 5550
+Wire Wire Line
+	7900 5550 7900 2350
+Connection ~ 7900 2350
+Wire Wire Line
+	7900 2350 8600 2350
+Wire Wire Line
+	7950 2450 7950 5650
+Wire Wire Line
+	7950 5650 5950 5650
+Connection ~ 7950 2450
+Wire Wire Line
+	7950 2450 5950 2450
+Text HLabel 1200 3450 0    50   Input ~ 0
+CLK
+Wire Wire Line
+	1200 3450 1950 3450
+Text HLabel 1150 6400 0    50   Input ~ 0
+CS1
+Wire Wire Line
+	1950 6650 4850 6650
+Wire Wire Line
+	4850 6400 1150 6400
+Text HLabel 1150 2650 0    50   Input ~ 0
+UDQM
+Text HLabel 1150 2750 0    50   Input ~ 0
+LDQM
+Text HLabel 1150 2950 0    50   Input ~ 0
+CAS#
+Text HLabel 1150 3050 0    50   Input ~ 0
+RAS#
+Text HLabel 1150 2850 0    50   Input ~ 0
+WE#
+Wire Wire Line
+	1150 2850 2750 2850
+Wire Wire Line
+	4850 2650 2850 2650
+Wire Wire Line
+	1150 2750 2800 2750
+Wire Wire Line
+	4850 2950 2700 2950
+Wire Wire Line
+	1150 3050 4850 3050
+Wire Wire Line
+	2850 2650 2850 5850
+Wire Wire Line
+	2850 5850 4850 5850
+Connection ~ 2850 2650
+Wire Wire Line
+	2850 2650 1150 2650
+Wire Wire Line
+	2800 2750 2800 5950
+Wire Wire Line
+	2800 5950 4850 5950
+Connection ~ 2800 2750
+Wire Wire Line
+	2800 2750 4850 2750
+Wire Wire Line
+	2750 2850 2750 6050
+Wire Wire Line
+	2750 6050 4850 6050
+Connection ~ 2750 2850
+Wire Wire Line
+	2750 2850 4850 2850
+Wire Wire Line
+	2700 2950 2700 6150
+Wire Wire Line
+	2700 6150 4850 6150
+Connection ~ 2700 2950
+Wire Wire Line
+	2700 2950 1150 2950
+Wire Wire Line
+	2650 3100 2650 6250
+Wire Wire Line
+	2650 6250 4850 6250
+Wire Wire Line
+	1950 3450 1950 6650
+Text HLabel 1100 6550 0    50   Input ~ 0
+CKE1
+Wire Wire Line
+	1200 3350 4900 3350
+Wire Wire Line
+	1100 6550 4850 6550
+Wire Wire Line
+	4850 3450 1950 3450
+Connection ~ 1950 3450
+$EndSCHEMATC

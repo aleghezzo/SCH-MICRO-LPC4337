@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name LPC4337JBD144)(type Legacy)(uri ${KIPRJMOD}/LPC4337JBD144/LPC4337JBD144.lib)(options "")(descr ""))
   (lib (name Alessandro_Custom)(type Legacy)(uri ${KIPRJMOD}/Alessandro_Custom.lib)(options "")(descr ""))
+  (lib (name Micro-rescue)(type Legacy)(uri ${KIPRJMOD}/Micro-rescue.lib)(options "")(descr ""))
 )

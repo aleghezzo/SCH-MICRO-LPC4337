@@ -453,7 +453,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 2950 2700 2950
 Wire Wire Line
-	1150 3050 4850 3050
+	1150 3050 2650 3050
 Wire Wire Line
 	2850 2650 2850 5850
 Wire Wire Line
@@ -483,7 +483,7 @@ Connection ~ 2700 2950
 Wire Wire Line
 	2700 2950 1150 2950
 Wire Wire Line
-	2650 3100 2650 6250
+	2650 3050 2650 6250
 Wire Wire Line
 	2650 6250 4850 6250
 Wire Wire Line
@@ -491,10 +491,13 @@ Wire Wire Line
 Text HLabel 1100 6550 0    50   Input ~ 0
 CKE1
 Wire Wire Line
-	1200 3350 4900 3350
+	1200 3350 4850 3350
 Wire Wire Line
 	1100 6550 4850 6550
 Wire Wire Line
 	4850 3450 1950 3450
 Connection ~ 1950 3450
+Connection ~ 2650 3050
+Wire Wire Line
+	2650 3050 4850 3050
 $EndSCHEMATC

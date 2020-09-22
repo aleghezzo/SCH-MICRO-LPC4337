@@ -491,7 +491,7 @@ Wire Wire Line
 Text HLabel 1100 6550 0    50   Input ~ 0
 CKE1
 Wire Wire Line
-	1200 3350 4900 3350
+	1200 3350 4850 3350
 Wire Wire Line
 	1100 6550 4850 6550
 Wire Wire Line

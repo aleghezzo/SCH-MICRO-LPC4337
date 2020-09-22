@@ -1,0 +1,73 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage{graphicx}
+\usepackage{blindtext}
+\usepackage{amsmath}
+\graphicspath{ {./graficos/} }
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+% !TeX spellcheck = es
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\makeatletter
+\newcommand{\unchapter}[1]{%
+  \begingroup
+  \let\@makechapterhead\@gobble % make \@makechapterhead do nothing
+  \chapter{#1}
+  \endgroup
+}
+\makeatother
+
+
+\begin{document}
+\begin{titlepage}
+	\pagestyle{fancy}
+	\centering
+	\includegraphics[width=0.15\textwidth]{utn}\par\vspace{1cm}
+	{\scshape\LARGE Universidad Tecnológica Nacional\\Regional Buenos Aires \par}
+	\vspace{1cm}
+	{\scshape\Large Tecnicas Digitales II\par}
+	\vspace{1.5cm}
+	{\huge\bfseries Memorias \par}
+	\vspace{2cm}
+	\begin{flushleft}
+	Docentes\par
+	Ing.~Alejandro Furfaro\\
+	Ing.~Pablo Ridolfi\\
+	\vfill
+	Alumno:	Alesandro Ghezzo
+	\vspace{2cm}
+	\vfill
+	\end{flushleft}
+\end{titlepage}
+\newpage
+\tableofcontents
+\newpage
+\unchapter{Consignas}
+{\center \large \scshape Consignas}\\ 
+\begin{flushleft}
+Diseñar el hardware un sistema embebido que sea capaz de almacenar y cargar el kernel Linux (MMU less) en memoria RAM al iniciar. \\ \vspace{0.1cm}
+$\bullet$ Microcontrolador a utilizar: LPC4337JBD144 \\
+$\bullet$ Requisitos mínimos de memoria de almacenamiento: kernel+rootfs 64MB (el bootloader, generalmente u-boot, se graba en la memoria Flash interna del microcontrolador así que no es necesario tenerlo en cuenta para el diseño).\\
+$\bullet$ Requisitos mínimos de memoria principal (RAM): 128MB \\ \vspace{1cm}
+Entregables:\\
+$\bullet$ Reporte en PDF explicando el criterio considerado para la elección de las memorias, especificando manufacturer y part number de cada una. \\
+$\bullet$ Esquemático completo en PDF, preferentemente hecho con KiCad.\\
+$\bullet$ Considerar una fuente de alimentación sencilla (5Vin a 3.3Vout) y todos los componentes externos que tanto el microcontrolador como las memorias necesiten. \\ $\bullet$ Diseñar el PCB es opcional. \\
+$\bullet$ Código de inicialización del controlador de memoria externa.\\
+\end{flushleft}
+\newpage
+\unchapter{Criterios de elección}
+{\center \large \scshape Criterios de eleción}\\ 
+\begin{flushleft}
+ \hspace{1cm}$\bullet$ Elección de ROM: NOR FLASH Micron N25Q064A\\
+\hspace{2cm}$\bullet$ Soporte por parte del fabricante (NXP) del LPC4337JBD144 para codigo de booteo y la SPIFI API.\\
+\hspace{2cm}$\bullet$ Tamaño de 64MB de manera que una sola memoria FLASH llene el banco de memoria asignado por el LPC en una lectura. Un tamaño menor implicaría no tener disponible toda la memoria al mismo tiempo y la construcción de glue-circuit adicional para su comunicación en base al address que se quiere acceder.\\
+\hspace{2cm}$\bullet$ La interfaz SPIFI del LPC permite la conección de memorias seriales - mucho más baratas y de mayor densidad - con baja perdida de rendimiento. \\
+
+ \hspace{1cm}$\bullet$ Elección de RAM: AllianceMemory 512M SDRAM AS4C32M16SB\\
+\hspace{2cm}$\bullet$ SDRAM es mucho más barata que SRAM y ofrece tamaños mucho mayores y abstrae de las complicaciones que trae una DRAM - como la volatilidad de la memoria (destroy on read).\\
+\hspace{2cm}$\bullet$ Con dos paquetes cumplimos con los requerimientos de 120MB. 
+	
+\end{flushleft}
+
+\end{document}

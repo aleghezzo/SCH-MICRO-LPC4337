@@ -1,0 +1,3 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Consignas}{2}
+\contentsline {chapter}{\numberline {2}Criterios de elecci\IeC {\'o}n}{3}

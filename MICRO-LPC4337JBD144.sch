@@ -13,14 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 1400 2600
-Wire Wire Line
-	1400 2600 1400 2500
-Connection ~ 1400 2700
-Wire Wire Line
-	1400 2700 1400 2600
-Wire Wire Line
-	1400 2800 1400 2700
 Wire Wire Line
 	1400 2500 1200 2500
 Wire Wire Line
@@ -435,7 +427,6 @@ Wire Wire Line
 	3950 5750 3950 5800
 Wire Wire Line
 	3600 4250 3600 5250
-Connection ~ 1400 2500
 Wire Wire Line
 	1200 3000 1200 2900
 Wire Wire Line
@@ -813,10 +804,6 @@ Text HLabel 6050 4400 3    50   Input ~ 0
 P9_6
 NoConn ~ 2200 1550
 NoConn ~ 2300 1550
-NoConn ~ 2500 1550
-NoConn ~ 2600 1550
-NoConn ~ 2750 1550
-NoConn ~ 2850 1550
 NoConn ~ 2950 1550
 NoConn ~ 5900 4250
 NoConn ~ 5500 4250
@@ -837,19 +824,6 @@ NoConn ~ 3800 4250
 NoConn ~ 1400 3100
 NoConn ~ 1400 3300
 $Comp
-L Micro-rescue:LPC4337JBD144-LPC4337JBD144 U?
-U 1 1 5F5DA26E
-P 4550 2500
-AR Path="/5F5DA26E" Ref="U?"  Part="1" 
-AR Path="/5F5D97EE/5F5DA26E" Ref="U1"  Part="1" 
-F 0 "U1" V 4897 -694 60  0000 R CNN
-F 1 "LPC4337JBD144" V 5003 -694 60  0000 R CNN
-F 2 "" H 4450 6450 60  0000 C CNN
-F 3 "" H 4450 6450 60  0000 C CNN
-	1    4550 2500
-	0    1    1    0   
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5FE22055
 P 1200 2900
@@ -862,4 +836,235 @@ F 3 "~" H 1200 2900 50  0001 C CNN
 $EndComp
 Connection ~ 1200 2900
 NoConn ~ 3450 4250
+$Comp
+L Device:Crystal_GND24 Y2
+U 1 1 5F7DF11D
+P 1250 6200
+F 0 "Y2" V 850 6150 50  0000 L CNN
+F 1 "32.768K" V 950 6100 50  0000 L CNN
+F 2 "" H 1250 6200 50  0001 C CNN
+F 3 "~" H 1250 6200 50  0001 C CNN
+	1    1250 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 6050 1900 6050
+Wire Wire Line
+	1900 6050 1900 6350
+$Comp
+L power:GND #PWR0101
+U 1 1 5F807DC0
+P 850 6200
+F 0 "#PWR0101" H 850 5950 50  0001 C CNN
+F 1 "GND" V 855 6072 50  0000 R CNN
+F 2 "" H 850 6200 50  0001 C CNN
+F 3 "" H 850 6200 50  0001 C CNN
+	1    850  6200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5F84114A
+P 2100 6200
+F 0 "R3" H 2170 6246 50  0000 L CNN
+F 1 "10M" H 2170 6155 50  0000 L CNN
+F 2 "" V 2030 6200 50  0001 C CNN
+F 3 "~" H 2100 6200 50  0001 C CNN
+	1    2100 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 6050 1900 6050
+Connection ~ 1900 6050
+Wire Wire Line
+	2100 6350 1900 6350
+Connection ~ 1900 6350
+Wire Wire Line
+	2100 6050 2450 6050
+Connection ~ 2100 6050
+Wire Wire Line
+	2100 6350 2450 6350
+Connection ~ 2100 6350
+Wire Wire Line
+	1250 6050 1150 6050
+Wire Wire Line
+	850  6050 850  6200
+Connection ~ 1250 6050
+Connection ~ 850  6200
+Wire Wire Line
+	850  6200 850  6350
+$Comp
+L Device:C C19
+U 1 1 5F899E7D
+P 1000 6050
+F 0 "C19" V 748 6050 50  0000 C CNN
+F 1 "C" V 839 6050 50  0000 C CNN
+F 2 "" H 1038 5900 50  0001 C CNN
+F 3 "~" H 1000 6050 50  0001 C CNN
+	1    1000 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5F89B81A
+P 1000 6350
+F 0 "C20" V 1300 6350 50  0000 C CNN
+F 1 "C" V 1200 6350 50  0000 C CNN
+F 2 "" H 1038 6200 50  0001 C CNN
+F 3 "~" H 1000 6350 50  0001 C CNN
+	1    1000 6350
+	0    1    1    0   
+$EndComp
+Connection ~ 1250 6350
+Wire Wire Line
+	1900 6350 1250 6350
+Wire Wire Line
+	1150 6350 1250 6350
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5F8E2472
+P 1200 7100
+F 0 "Y1" V 800 7050 50  0000 L CNN
+F 1 "12MHz" V 900 7000 50  0000 L CNN
+F 2 "" H 1200 7100 50  0001 C CNN
+F 3 "~" H 1200 7100 50  0001 C CNN
+	1    1200 7100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 6950 1850 6950
+Wire Wire Line
+	1850 6950 1850 7250
+$Comp
+L power:GND #PWR0102
+U 1 1 5F8E247A
+P 800 7100
+F 0 "#PWR0102" H 800 6850 50  0001 C CNN
+F 1 "GND" V 805 6972 50  0000 R CNN
+F 2 "" H 800 7100 50  0001 C CNN
+F 3 "" H 800 7100 50  0001 C CNN
+	1    800  7100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 7100 800  7100
+$Comp
+L power:GND #PWR0103
+U 1 1 5F8E2481
+P 1550 7100
+F 0 "#PWR0103" H 1550 6850 50  0001 C CNN
+F 1 "GND" V 1555 6972 50  0000 R CNN
+F 2 "" H 1550 7100 50  0001 C CNN
+F 3 "" H 1550 7100 50  0001 C CNN
+	1    1550 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 7100 1550 7100
+$Comp
+L Device:R R2
+U 1 1 5F8E2488
+P 2050 7100
+F 0 "R2" H 2120 7146 50  0000 L CNN
+F 1 "10M" H 2120 7055 50  0000 L CNN
+F 2 "" V 1980 7100 50  0001 C CNN
+F 3 "~" H 2050 7100 50  0001 C CNN
+	1    2050 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 6950 1850 6950
+Connection ~ 1850 6950
+Wire Wire Line
+	2050 7250 1850 7250
+Connection ~ 1850 7250
+Wire Wire Line
+	2050 6950 2400 6950
+Connection ~ 2050 6950
+Wire Wire Line
+	2050 7250 2400 7250
+Connection ~ 2050 7250
+Wire Wire Line
+	1200 6950 1100 6950
+Wire Wire Line
+	800  6950 800  7100
+Connection ~ 1200 6950
+Connection ~ 800  7100
+Wire Wire Line
+	800  7100 800  7250
+$Comp
+L Device:C C17
+U 1 1 5F8E249B
+P 950 6950
+F 0 "C17" V 698 6950 50  0000 C CNN
+F 1 "C" V 789 6950 50  0000 C CNN
+F 2 "" H 988 6800 50  0001 C CNN
+F 3 "~" H 950 6950 50  0001 C CNN
+	1    950  6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5F8E24A1
+P 950 7250
+F 0 "C18" V 1250 7250 50  0000 C CNN
+F 1 "C" V 1150 7250 50  0000 C CNN
+F 2 "" H 988 7100 50  0001 C CNN
+F 3 "~" H 950 7250 50  0001 C CNN
+	1    950  7250
+	0    1    1    0   
+$EndComp
+Connection ~ 1200 7250
+Wire Wire Line
+	1850 7250 1200 7250
+Wire Wire Line
+	1100 7250 1200 7250
+Text Label 2450 6050 0    50   ~ 0
+RTCX1
+Text Label 2450 6350 0    50   ~ 0
+RTCX2
+Text Label 2400 6950 0    50   ~ 0
+XTAL2
+Text Label 2400 7250 0    50   ~ 0
+XTAL1
+NoConn ~ 1050 6200
+NoConn ~ 1450 6200
+Wire Wire Line
+	2850 1400 2850 1550
+Wire Wire Line
+	2750 1400 2750 1550
+Wire Wire Line
+	1400 2800 1400 2700
+Connection ~ 1400 2700
+Wire Wire Line
+	1400 2600 1400 2500
+Wire Wire Line
+	1400 2700 1400 2600
+Connection ~ 1400 2600
+Connection ~ 1400 2500
+$Comp
+L Micro-rescue:LPC4337JBD144-LPC4337JBD144 U?
+U 1 1 5F5DA26E
+P 4550 2500
+AR Path="/5F5DA26E" Ref="U?"  Part="1" 
+AR Path="/5F5D97EE/5F5DA26E" Ref="U1"  Part="1" 
+F 0 "U1" V 4897 -694 60  0000 R CNN
+F 1 "LPC4337JBD144" V 5003 -694 60  0000 R CNN
+F 2 "" H 4450 6450 60  0000 C CNN
+F 3 "" H 4450 6450 60  0000 C CNN
+	1    4550 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 1400 2600 1550
+Wire Wire Line
+	2500 1400 2500 1550
+Text Label 2500 1400 1    50   ~ 0
+XTAL2
+Text Label 2600 1400 1    50   ~ 0
+XTAL1
+Text Label 2750 1400 1    50   ~ 0
+RTCX2
+Text Label 2850 1400 1    50   ~ 0
+RTCX1
 $EndSCHEMATC
